@@ -1,8 +1,8 @@
 export default Object.freeze({
   PORT: 3002,
-  MONGO_URL: 'mongodb+srv://manideep:manideep@cluster0.njcv8.mongodb.net/dl-lms',
+  // MONGO_URL: 'mongodb+srv://manideep:manideep@cluster0.njcv8.mongodb.net/dl-lms',
   // MONGO_URL: process.env.MONGO_DB,
-  // MONGO_URL: 'mongodb://54.67.55.251:27017/dllms-dev',
+  MONGO_URL: 'mongodb://54.67.55.251:27017/dllms-dev',
   JWT_SECRET: 'sdtcb',
   AWS_S3_ACCESS_KEY: process.env.S3_ACCESS_KEY,
   AWS_SECRET_ACCESS_KEY: process.env.S3_SECRET_KEY,
